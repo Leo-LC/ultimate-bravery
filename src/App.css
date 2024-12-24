@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Champion Display */
+.champion-display {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 300px;
+}
+
+.champion-display img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+/* Items Display */
+.items-display {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1000px;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.items-display ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.items-display li {
+  text-align: center;
+  flex: 0 0 100px;
+}
+
+.items-display img {
+  max-width: 60px;
+  height: auto;
+}
+
+.items-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Control Buttons */
+.control-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.control-buttons button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #2d435a;
+  border: 1px solid #405f81;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.control-buttons button:hover {
+  background-color: #405f81;
+}

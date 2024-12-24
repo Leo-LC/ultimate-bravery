@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",                     // Utilise ES6 (ou supérieur) pour un support moderne
+    "module": "esnext",                  // Modules ESNext pour React
+    "jsx": "react-jsx",                  // Gestion JSX pour React 17+
+    "strict": true,                      // Active toutes les règles strictes de TypeScript
+    "esModuleInterop": true,             // Facilite les imports ES6 et CommonJS
+    "skipLibCheck": true,                // Ignore les vérifications dans node_modules pour accélérer la compilation
+    "forceConsistentCasingInFileNames": true, // Sensibilité à la casse pour les noms de fichiers
+    "resolveJsonModule": true,           // Permet l'importation des fichiers JSON
+    "moduleResolution": "node10",          // Résolution des modules basée sur Node.js
+    "baseUrl": "./src",                  // Simplifie les imports relatifs en se basant sur src/
+    "paths": {
+      "*": ["*"]                         // Support pour les chemins relatifs
+    }
+  },
+  "include": ["src"],                    // Analyse tous les fichiers dans src/
+  "exclude": ["node_modules"]            // Exclut node_modules pour optimiser les performances
+}
